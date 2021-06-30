@@ -4,6 +4,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
+        "start": "ts-node src/index.ts",
         "format": "prettier --write \"**/*.{js,json,ts}\"",
         "test": "jest"
     },
