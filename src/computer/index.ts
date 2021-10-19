@@ -7,7 +7,7 @@ import { Macbook } from "./macbook/macbook";
 import { macbookProviders } from "./macbook/macbook-module";
 import { ConsoleOutput } from "./output/console-output";
 import { PC } from "./pc/pc";
-import { pcProvider } from "./pc/pc-modulet";
+import { pcProvider } from "./pc/pc-module";
 
 export function main(): void {
     const base = ReflectiveInjector.resolveAndCreate(baseProvider);
