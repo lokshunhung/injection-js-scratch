@@ -4,7 +4,9 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "start": "ts-node src/index.ts",
+        "start": "yarn start:computer",
+        "start:coffee": "ts-node src/coffee/index.ts",
+        "start:computer": "ts-node src/computer/index.ts",
         "format": "prettier --write \"**/*.{js,json,ts}\"",
         "test": "jest"
     },
