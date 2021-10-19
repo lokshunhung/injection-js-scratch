@@ -9,8 +9,8 @@ The API is based on [ReflectiveInjector](https://angular.io/api/core/ReflectiveI
 Install dependencies:
 `$ yarn install`
 
-Run coffee example:
+Run [coffee example](src/coffee/index.ts):
 `$ yarn run start:coffee`
 
-Run computer example:
+Run [computer example](src/computer/index.ts):
 `$ yarn run start:computer`
